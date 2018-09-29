@@ -1,6 +1,5 @@
 package org.schabi.newpipe.extractor.graphql.param;
 
-import javax.annotation.Nullable;
 import java.util.Collection;
 import java.util.LinkedList;
 import java.util.Map;
@@ -11,7 +10,7 @@ public class GraphQLParam {
     protected Map<String, Object> variables;
     protected Collection<GraphQLParam> extensions;
 
-    public GraphQLParam(@Nullable String query, String operationName, Map<String, Object> variables, @Nullable Collection<GraphQLParam> extensions) {
+    public GraphQLParam(String query, String operationName, Map<String, Object> variables, Collection<GraphQLParam> extensions) {
         this.query = query;
         this.operationName = operationName;
         this.variables = variables;

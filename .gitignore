@@ -1,4 +1,4 @@
-timeago-parser/
+timeago-parser/*
 .gradle
 build/
 .idea

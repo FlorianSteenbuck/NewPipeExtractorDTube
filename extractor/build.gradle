@@ -1,17 +1,17 @@
 dependencies {
     implementation project(':timeago-navigator')
-
+    
     implementation 'com.grack:nanojson:1.1'
     implementation 'org.jsoup:jsoup:1.9.2'
     implementation 'org.mozilla:rhino:1.7.7.1'
     implementation 'com.github.spotbugs:spotbugs-annotations:3.1.0'
     implementation 'org.nibor.autolink:autolink:0.8.0'
-    implementation 'com.github.FlorianSteenbuck:OtherFeatures:j0.0.1'
+    implementation 'com.github.FlorianSteenbuck:OtherFeatures:a154996eff'
     implementation 'com.github.FlorianSteenbuck:OtherUrl:dev-SNAPSHOT'
-    implementation 'com.github.FlorianSteenbuck:OtherMap:dev-SNAPSHOT'
+    implementation 'com.github.FlorianSteenbuck:OtherMap:cc4d8e1f1b'
     implementation 'com.github.FlorianSteenbuck:OtherSettings:4d997dd54c'
-    implementation 'com.github.FlorianSteenbuck:OtherHttp:master-SNAPSHOT'
-    implementation 'com.github.FlorianSteenbuck:OtherParams:master-SNAPSHOT'
+    implementation 'com.github.FlorianSteenbuck:OtherHttp:b08aefd6c8'
+    implementation 'com.github.FlorianSteenbuck:OtherParams:6add6ff6da'
 
     testImplementation 'junit:junit:4.12'
 }
