@@ -1,4 +1,4 @@
-package org.schabi.newpipe.extractor.graphql.navigator;
+package org.schabi.newpipe.extractor.graphql.navigator.params;
 
 import java.util.HashMap;
 

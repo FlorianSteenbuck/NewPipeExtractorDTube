@@ -1,5 +1,7 @@
 package org.schabi.newpipe.extractor.graphql.navigator;
 
+import org.schabi.newpipe.extractor.graphql.navigator.params.GraphQLParameters;
+
 import java.util.*;
 
 import static java.util.Arrays.asList;
